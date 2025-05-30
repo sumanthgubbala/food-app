@@ -29,7 +29,7 @@ const Header = () => {
         isUser ?
           <>
             <Avatar>
-              <AvatarImage src="https://github.com/sshadcn.png" />
+              <AvatarImage src="https://github.com/shadcn.png"  className='rounded-full w-10'/>
               <AvatarFallback>{user?.username?.[0]?.toUpperCase() || "U"}</AvatarFallback>
             </Avatar>
           </>
