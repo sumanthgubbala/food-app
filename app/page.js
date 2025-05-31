@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import CategoryList from "./_components/CategoryList";
 import GetCategory from "./_utils/Global";
+import BusinessList from "./_components/BusinessList";
 
 export default function Home() {
   const [user, setUser] = useState(null);
@@ -19,6 +20,7 @@ export default function Home() {
   return (
     <div>
       <CategoryList />
+      <BusinessList />
     </div>
   );
 }

@@ -5,8 +5,8 @@ const nextConfig = {
         dangerouslyAllowSVG:true,
         remotePatterns:[
             {
-                protocol:'http',
-                hostname:'',
+                protocol:'https',
+                hostname:'images.pexels.com',
                 port:'',
                 pathname:'/**'
             }
